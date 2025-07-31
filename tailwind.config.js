@@ -11,9 +11,9 @@ module.exports = {
       colors: {
         border: '#e5e7eb',
       },
-      borderColor: theme => ({
-        border: theme('colors.border'),
-      }),
+      borderColor: {
+        border: '#e5e7eb',
+      },
     },
   },
   plugins: [],
